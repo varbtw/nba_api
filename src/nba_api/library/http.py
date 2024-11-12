@@ -149,6 +149,7 @@ class NBAHTTP:
                 headers=request_headers,
                 proxies=proxies,
                 timeout=timeout,
+                verify=False,
             )
             url = response.url
             status_code = response.status_code
