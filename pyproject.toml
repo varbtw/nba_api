@@ -3,7 +3,7 @@ requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
 
 [tool.poetry]
-name = "var_plato_nba_api"
+name = "nba_api"
 version = "1.6.1"
 description = "An API Client package to access the APIs for NBA.com"
 license = "MIT"
